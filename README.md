@@ -1,2 +1,5 @@
-# antihoax-sk
-anti hoax ddos for sk/cz conspiracy sources
+Táto stránka je inšpirovaná stránkou [https://vug.pl/takeRussiaDown.html](https://vug.pl/takeRussiaDown.html). Kód bol mierne upravený pre účely "testovania" infraštruktúry webov šíriacich konšpirácie a hoaxy na Slovensku a v Čechách.
+
+Zoznam stránok `targets` je vygenerovaný zo zoznamu na stránke [konspiratori.sk](https://konspiratori.sk/zoznam-stranok). Test je aktivovaný pre prvých 50 webov s najvyšším hodnotením (ostatné sú v kóde deaktivované = zakomentovené)
+
+Prosím nepodliehajte predstave, že po otvorení tejto stránky vo vašom prehliadači sa začne z cielových serverov dymiť. Ochrana proti takémuto triviálnemu útoku je taktiež pomerne triviálna. Avšak vyžaduje vykonať nejáke úkony. A čím viac ľudí si takúto stránku otvorí, tým viac tých úkonov treba (aj keď to nie je priamo úmerné). Stránka nerobí nič iné, než opakované odosielanie HTTP požadaviek z vašeho prehliadača na weby zo zoznamu (aktivita, ktorá sa nebude veľmi páčiť vašim antivírom), ktoré tak musia odpovedať (za predpokladu, že požiadavka nie je odchytená nejakým „filtrom“ na ceste a dostane sa na server), čo ich zaťažuje. To, že se vám server javí po chvíli ako nedostupný neznamená, že ste ho vyhackovali..., ale s najväčšiou pravdepodobnosťou iba to, že váš pokus bol odhalený a server vaše požiadavky filtruje/ignoruje.</p>
