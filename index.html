@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>STOP konšpiráciám</title>
+</head>
+<body>
+<h2><a href="https://konspiratori.sk/zoznam-stranok" target="_blank">Zoznam stránok so sporným obsahom</a></h2>
+<h1>STOP konšpiráciám!</h1>
+
+<h3>Slovenská verzia</h3>
+<p>Nechajte túto stránku otvorenú vo vašom prehliadači. Stránka
+    automaticky generuje HTTP žiadosti a odosiela ich na každý server
+    so uvedeného zoznamu, čo predstavuje záťaž pre ich infraštruktúru.</p>
+<p>Váš prehliadač bude pomalší. To je v poriadku, nebojte sa a nechajte
+    stránku pracovať.</p>
+<p><small>
+    Prosím nepodliehajte predstave, že po otvorení tejto stránky vo vašom
+    prehliadači sa začne z cielových serverov dymiť. Ochrana proti takémuto
+    triviálnemu útoku je taktiež pomerne triviálna. Avšak vyžaduje vykonať
+    nejáke úkony. A čím viac ľudí si takúto stránku otvorí, tým viac tých
+    úkonov treba (aj keď to nie je priamo úmerné). Stránka nerobí nič iné,
+    než opakované odosielanie HTTP požadaviek z vašeho prehliadača na weby
+    zo zoznamu (aktivita, ktorá sa nebude veľmi páčiť vašim antivírom),
+    ktoré tak musia odpovedať (za predpokladu, že požiadavka nie je odchytená
+    nejakým „filtrom“ na ceste a dostane sa na server), čo ich zaťažuje.
+    To, že se vám server javí po chvíli ako nedostupný neznamená, že ste ho
+    vyhackovali..., ale s najväčšiou pravdepodobnosťou iba to, že váš pokus
+    bol odhalený a server vaše požiadavky filtruje/ignoruje.
+</small></p>
+<h3>English version</h3>
+<p>Please, just open this page and let it be open on your devices. It will flood the
+    conspiracy websites and pose a huge load on their infrastructure.</p>
+<p>Your browser will be slow(er). It's ok, don't worry and keep it run.</p>
+
+<h3>Vaše štatistiky / your stats</h3>
+<div id="stats"></div>
+<div id="errors"></div>
+<p>Zdroj: <a href="https://vug.pl/takeRussiaDown.html">https://vug.pl/takeRussiaDown.html</a></p>
+
+<script src="targets.js"></script>
+<script src="flood.js"></script>
+</body>
+</html>
